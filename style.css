@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+}
+
+.header{
+	text-align: center;
+	padding: 15px;
+	height: 100px;
+	width: 100%;
+	background-color: gray;
+	box-shadow: 10px 10px green;
+}
+
+.row{
+	display: grid;
+	grid-template-areas: 'auto auto auto auto';
+}
+
+div{
+	transition: width 2s;
+}
+
+div:hover{
+	width: 110%;
+}
